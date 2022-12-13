@@ -1,0 +1,11 @@
+body {
+   background-image: url(linhas.png);
+   background-position:center;
+   color: seagreen;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.5em;
+   font-style: italic;
+   font-weight: 500;
+   line-height: 1.3em;
+   text-align: left;
+}

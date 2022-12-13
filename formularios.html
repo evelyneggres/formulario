@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+   <link rel="stylesheet" href="formatacao.css">
+    <link rel="icon" href="icone.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+ <style>
+form {
+background-color: rgba(255, 182, 193, 0.876);
+color: rgb(29, 19, 19);
+margin-left: 15%;
+margin-right: 15%;
+}
+</style>
+</head>
+
+<body>
+<center><h1>Cadastro de usuário</h1>
+&#160;&#160;&#160; »»————-　★　————-««</center>
+<form action="#">
+
+<fieldset>
+<legend>Identificação</legend>
+
+<label for="Cnome"> Nome completo:</label>
+
+<input type="text" size="50px" id="Cnome" name="nome" required>
+<br>
+<br>
+<br>
+<p>Cidade de nascimento:</p>
+<input type="radio" name="cidade" id="poa" checked>
+<label for="poa"> Porto Alegre</label>
+<br>
+<input type="radio" name="cidade" id="sp">
+<label for="sp"> São Paulo</label>
+<br>
+<input type="radio" name="cidade" id="rj">
+<label for="rj"> Rio de Janeiro</label>
+
+<br><br>
+<p>Outras informações</p>
+<p>Meio de transporte:</p>
+<input type="checkbox" name="transporte1" id="transporte1">
+<label for="transporte1">Carro</label>
+
+<input type="checkbox" name="transporte2" id="transporte2">
+<label for="transporte2">Ônibus</label>
+
+<input type="checkbox" name="transporte3" id="transporte3">
+<label for="transporte3">Trem</label>
+
+<br>
+
+<p>Escolaridade</p>
+<label for="escolaridade">Selecione sua escolaridade</label>
+<select name="escolaridade" id="escolaridade"> 
+<option value="grau1">Primeiro grau</option>
+<option value="grau2">Ensino médio</option>
+<option value="grau3">Superior</option>
+<option value="grau4">Graduação</option>
+</select>
+
+<br><br>
+
+<label for="Comidas">Qual sua comida favorita?</label>
+<input list="comida" placeholder="digite seu prato favorito">
+
+<datalist id="comida">
+<option value="Pizza"></option>
+<option value="Miojo"></option>
+<option value="Lasanha"></option>
+<option value="Salada"></option>
+<option value="Strogonoff"></option>
+</datalist>
+
+<br><br>
+
+<p>Exemplos de RANGE e NUMBER</p>
+
+0 <input type="range" name="" id=""> 100
+<br>
+<input type="number" min="0" max="100">
+
+<br><br>
+
+<p>Comentários</p>
+
+<textarea style="resize:none;" name="" id="" cols="60" rows="5" placeholder="insira críticas, elogios e sugestões">
+</textarea>
+
+<br><br>
+
+<input type="submit" value="CADASTRAR">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+</form>   
+</body>
+</html>
